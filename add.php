@@ -19,7 +19,10 @@
                 $name = $_POST["proname"];
                 $price = $_POST["price"];
                 $descrip = $_POST["descrip"];
-                if ($name == ""||$price == ""|| $descrip == "") 
+                $hinhanh=$_FILES['hinhanh']['name'];
+                $hinhanh_tmp=$_FILEs['hinhanh']['tmp_name'];
+                move_uploaded_file($hinhanh_tmp,'uploads/'.$hinhanh);
+                if ($name == ""||$price == ""|| $descrip == ""|| $hinhanh =="") 
                     {
                         echo "Product information should not be blank!!";
                     }
@@ -33,7 +36,7 @@
                         }
                         else
                         {
-                            $sql = "INSERT INTO product(proname, price, descrip) VALUES ('$name','$price','$descrip')";
+                            $sql = "INSERT INTO product(proname, price, descrip,hinhanh) VALUES ('$name','$price','$descrip','$hinhanh')";
                             pg_query($conn,$sql);
                             echo  "Sign Up successful!!";
                         }
@@ -44,6 +47,7 @@
             <input type="text" width="300" height="100" name="proname" placeholder="Name"> <br>
             <input type="text" width="300" height="100" name="price" placeholder="Price"> <br>
             <input type="text" width="300" height="100" name="descrip" placeholder="Description"> <br>
+            <input type="file" name="hinhanh" placeholder="image">
             <button type="submit" value="Add" name="submit">Add</button>
         </form>
         
