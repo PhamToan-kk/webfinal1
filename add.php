@@ -21,8 +21,8 @@
                 $descrip = $_POST["descrip"];
                 $hinhanh=$_FILES['hinhanh']['name'];
                 $hinhanh_tmp=$_FILEs['hinhanh']['tmp_name'];
-                move_uploaded_file($hinhanh_tmp,'uploads/'.$hinhanh);
-                
+                move_uploaded_file($hinhanh_tmp,'./uploads/'.$hinhanh);
+
                 if ($name == ""||$price == ""|| $descrip == "") 
                     {
                         echo "Product information should not be blank!!";
