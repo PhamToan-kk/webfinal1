@@ -32,7 +32,7 @@
                     <td class="info"><?php echo $row['proname']?></td> 
                     <td class="info"><?php echo $row['price']?></td> 
                     <td class="info"><?php echo $row['descrip']?></td> 
-                    <td class="info"><?php echo $row['hinhanh']?></td> 
+                    <td class="info"><img src="hinhanh/<?php echo$dong_chitiet['hinhanh'] ?>" width="100" height="100"></td> 
                 </tr>
             <?php
             }
