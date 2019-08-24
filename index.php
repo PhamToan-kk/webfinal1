@@ -11,14 +11,14 @@
 
 <body>
     <div class="content">
-        <h1>Managing Product</h1>
+        <h1> Product information</h1>
         <table>
             <tr>
                 <th class="tit">ID</th>
                 <th class="tit">Name</th>
                 <th class="tit">Price ($)</th>
                 <th class="tit">Description</th>
-                <th class="tit">Editting</th>
+                <th class="tit">Image</th>
             </tr>
 
             <?php
@@ -32,7 +32,7 @@
                     <td class="info"><?php echo $row['proname']?></td> 
                     <td class="info"><?php echo $row['price']?></td> 
                     <td class="info"><?php echo $row['descrip']?></td> 
-                    <td class="info"><a href="#">Delete</a><a href="#">Update</a></td>
+                    <td class="info"><?php echo $row['hinhanh']?></td> 
                 </tr>
             <?php
             }

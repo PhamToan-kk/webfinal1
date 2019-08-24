@@ -43,7 +43,7 @@
                     }
             }
 			 ?>
-        <form action="add.php" method="POST">
+        <form action="add.php" method="POST" enctype="multipart/form-data">
             <input type="text" width="300" height="100" name="proname" placeholder="Name"> <br>
             <input type="text" width="300" height="100" name="price" placeholder="Price"> <br>
             <input type="text" width="300" height="100" name="descrip" placeholder="Description"> <br>
