@@ -29,7 +29,7 @@
             ?>
                 <tr>
                     <td class="info"><?php echo $row['productid']?></td> 
-                    <td class="info"><?php echo $row['name']?></td> 
+                    <td class="info"><?php echo $row['proname']?></td> 
                     <td class="info"><?php echo $row['price']?></td> 
                     <td class="info"><?php echo $row['descrip']?></td> 
                     <td class="info"><a href="#">Delete</a><a href="#">Update</a></td>
