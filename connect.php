@@ -1,4 +1,4 @@
 <?php
 
-$conn = pg_connect("host=ec2-174-129-27-158.compute-1.amazonaws.com port=5432 dbname=d692tlp6mgc3mc user=qmiwpgmtylvvnq password=63251db4218016ad466a25a36fe6b2c76742cb871fa11da4a1051b7ebe4e3a71") or die("Connect Unsuccessful");
+$conn = pg_connect("host=ec2-107-20-155-148.compute-1.amazonaws.com port=5432 dbname=d1cg0pi0dv5r10 user=gsuiybcdvwxcxu password=509a4e854e8a54f23aad6af7143ca7546d09dd443223e69e01d4294354d0e7c") or die("Connect Unsuccessful");
 ?>
