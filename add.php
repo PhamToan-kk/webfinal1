@@ -33,7 +33,7 @@
                         }
                         else
                         {
-                            $sql = "INSERT INTO product(proname, price, descrip) VALUES ('$name','$price','$descrip')";
+                            $sql = "INSERT INTO product(name, price, descrip) VALUES ('$name','$price','$descrip')";
                             pg_query($conn,$sql);
                             echo  "Sign Up successful!!";
                         }
