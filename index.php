@@ -11,7 +11,7 @@
 
 <body>
     <div class="content">
-        <h1> Product information</h1>
+        <h1> Product information !!! </h1>
         <table>
             <tr>
                 <th class="tit">ID</th>
