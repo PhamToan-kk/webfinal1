@@ -1,13 +1,13 @@
 body {
-  
+    background-color: #81F7F3;
 }
 
 .content {
-    width: 100%;
+    width: 75%;
     margin: 0 auto;
-    margin-top: 50px !important;
+    margin-top: 20px !important;
     border: 1px solid black;
-    background-color: #81DAF5;
+    background-color: white;
 }
 
 h1 {
@@ -15,20 +15,12 @@ h1 {
     margin-left: 370px;
     margin-bottom: 20px;
 }
-.nut {
-    align-items: center;
-    color: green;
-    width: 100;
-    height: 60;
-    }
 
 .tit {
     font-size: 30px;
     font-weight: bold;
-    font-style: normal;
+    font-style: oblique;
     padding: 20px;
-    font-family: "Times New Roman";
-    color: red;
 }
 
 .content table,
@@ -38,7 +30,7 @@ td {
 }
 
 .content table {
-    margin-left: 170px;
+    margin-left: 130px;
     margin-top: 30px;
 }
 
@@ -56,7 +48,7 @@ table {
 a {
     list-style-type: none;
     color: rgb(66, 126, 150);
-    margin-left: 300px;
+    margin-left: 10px;
     text-decoration: none;
     padding-right: 5px !important;
 }
