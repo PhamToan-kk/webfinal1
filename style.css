@@ -26,7 +26,7 @@ h1 {
     font-style: normal;
     padding: 20px;
     font-family: "Times New Roman";
-    color: #B40404;
+    color: red;
 }
 
 .content table,
@@ -54,7 +54,7 @@ table {
 a {
     list-style-type: none;
     color: rgb(66, 126, 150);
-    margin-left: 10px;
+    margin-left: 100px;
     text-decoration: none;
     padding-right: 5px !important;
 }
