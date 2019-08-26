@@ -11,7 +11,7 @@
 
 <body>
     <div class="content">
-        <h1 font-style: >Adding New Product </h1>
+        <h1 font-style: >Add New Product </h1>
         <?php 
         require("connect.php");   
         if(isset($_POST["submit"]))
@@ -25,7 +25,7 @@
 
                 if ($name == ""||$price == ""|| $descrip == "") 
                     {
-                        echo "Product information should not be blank!!";
+                        echo "Information should not be blank!!";
                     }
                 else
                     {
