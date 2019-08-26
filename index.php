@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="/style.css">
-    <title>Document</title>
+    <title>Adminstrator</title>
 </head>
 
 <body>
@@ -38,7 +38,7 @@
             }
             ?> 
         </table>
-        <button class="nut"><a href="add.php">Add Product</a></button>
+        <button class="nut1"><a href="add.php">Add new Product</a></button>
     </div>
 </body>
 
