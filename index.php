@@ -38,7 +38,7 @@
             }
             ?> 
         </table>
-        <button class="nut1"><a href="add.php">Add new Product</a></button>
+        <button class="nut"><a href="add.php">Add  Product</a></button>
     </div>
 </body>
 
