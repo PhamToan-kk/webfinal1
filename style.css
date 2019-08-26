@@ -3,11 +3,11 @@ body {
 }
 
 .content {
-    width: 75%;
+    width: 100%;
     margin: 0 auto;
     margin-top: 50px !important;
     border: 1px solid black;
-    background-color: white;
+    background-color: #81DAF5;
 }
 
 h1 {
@@ -23,8 +23,9 @@ h1 {
 .tit {
     font-size: 30px;
     font-weight: bold;
-    font-style: oblique;
+    font-style: normal;
     padding: 20px;
+    font-family: "Times New Roman";
 }
 
 .content table,
