@@ -14,7 +14,7 @@
         <h1> Product information !!! </h1>
         <table>
             <tr>
-                <th class="tit">Id</th>
+                <th class="tit">Idd</th>
                 <th class="tit">NameProduct</th>
                 <th class="tit">Price ($)</th>
                 <th class="tit">Description</th>
