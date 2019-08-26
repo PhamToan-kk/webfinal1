@@ -67,16 +67,18 @@ a {
     width: 310px;
 }
 .nut1{
-background-color: #4CAF50;
+background-color: #f4511e;
   border: none;
   color: white;
-  padding: 15px 32px;
+  padding: 16px 32px;
   text-align: center;
-  text-decoration: none;
+  font-size: 8px;
+  margin: 4px 2px;
+  opacity: 0.6;
+  transition: 0.3s;
   display: inline-block;
-  font-size: 30px;
-  width: 220;
-  height: 60;
+  text-decoration: none;
+  cursor: pointer;
 
 
 }
