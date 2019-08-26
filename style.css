@@ -1,5 +1,5 @@
 body {
-  background-color: green;
+  
 }
 
 .content {
@@ -60,7 +60,7 @@ a {
 }
 
 .content button {
-    margin-left: "50%";
+    margin-left: 780px;
     margin-top: 10px;
     height: 35px;
     width: 70px;
