@@ -11,7 +11,7 @@
 
 <body>
     <div class="content">
-        <h1>Adding Product Form</h1>
+        <h1 font-style: >Adding New Product </h1>
         <?php 
         require("connect.php");   
         if(isset($_POST["submit"]))
@@ -48,7 +48,7 @@
             <input type="text" width="300" height="100" name="proname" placeholder="Name"> <br>
             <input type="text" width="300" height="100" name="price" placeholder="Price"> <br>
             <input type="text" width="300" height="100" name="descrip" placeholder="Description"> <br>
-            <input type="file" name="hinhanh" placeholder="image">
+            <input type="file" name="hinhanh" placeholder="image" border = "1px">
             <button type="submit" value="Add" name="submit">Add</button>
         </form>
         
