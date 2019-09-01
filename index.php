@@ -33,6 +33,12 @@
                     <td class="info"><?php echo $row['price']?></td> 
                     <td class="info"><?php echo $row['descrip']?></td> 
                     <td class="info"><img src="uploads/<?php echo $row['hinhanh'] ?>" width="100" height="100"></td> 
+                     <td class="info">
+                        <form action='/delete.php' method="POST">
+                            <input type='hidden' name='productid' value='<?php echo $row['productid']?>'>
+                            <input class="edit-btn" type='submit' value='Delete'>
+                        </form> <br>
+                    </td>
                 </tr>
             <?php
             }
