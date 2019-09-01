@@ -35,7 +35,7 @@
                     <td class="info"><?php echo $row['price']?></td> 
                     <td class="info"><?php echo $row['descrip']?></td> 
                     <td class="info"><img src="uploads/<?php echo $row['hinhanh'] ?>" width="100" height="100"></td> 
-                     <td class="info">
+                     <td >
                         <form action='/delete.php' method="POST" >
                             <input width="20px" type='hidden' name='productid' value='<?php echo $row['productid']?>'><br>
                             <input class="edit-btn" type='submit' value='Delete' width="20px">
