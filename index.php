@@ -29,7 +29,7 @@
             $stmt = $pdo->prepare($sql);
             foreach ($pdo->query($sql) as $row) {
             ?>
-                <tr>
+                <tr >
                     <td class="info"><?php echo $row['productid']?></td> 
                     <td class="info"><?php echo $row['proname']?></td> 
                     <td class="info"><?php echo $row['price']?></td> 
