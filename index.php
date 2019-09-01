@@ -19,6 +19,8 @@
                 <th class="tit">Price ($)</th>
                 <th class="tit">Description</th>
                 <th class="tit">Image</th>
+                <th class="tit">Delete</th>
+
             </tr>
 
             <?php
