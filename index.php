@@ -10,7 +10,7 @@
 </head>
 
 <body>
-    <div class="content">
+    <div class="content1">
         <h1> Product information !!! </h1>
         <table border="1px">
             <tr>
