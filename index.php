@@ -37,8 +37,8 @@
                     <td class="info"><img src="uploads/<?php echo $row['hinhanh'] ?>" width="100" height="100"></td> 
                      <td class="info">
                         <form action='/delete.php' method="POST" >
-                            <input  type='hidden' name='productid' value='<?php echo $row['productid']?>'><br>
-                            <input class="edit-btn" type='submit' value='Delete' width="100">
+                            <input  width="30"> type='hidden' name='productid' value='<?php echo $row['productid']?>' ><br>
+                            <input class="edit-btn" type='submit' value='Delete' width="30">
                         </form> <br>
                     </td>
                 </tr>
