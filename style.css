@@ -73,3 +73,13 @@ a {
     height: 40px;
 }
 */
+.content {
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 20px !important;
+    border: 1px solid black;
+    background-color: white;
+}
+body {
+    background-color: #81F7F3;
+}
