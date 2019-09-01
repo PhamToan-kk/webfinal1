@@ -34,10 +34,10 @@ td {
     margin-top: 30px;
 }
 
-/*.info {
+.info {
     text-align: justify;
     padding: 10px;
-}*/
+}
 
 .content table td th,
 table td,
@@ -62,11 +62,11 @@ a {
     font-size: 20px;
 }
 
-.content input {
+/*.content input {
     margin-left: 350px;
     height: 30px;
     width: 310px;
-}
+}*/
 
 .f1 {
     width: 40px;
