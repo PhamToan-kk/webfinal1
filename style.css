@@ -79,3 +79,17 @@ a {
     width: 40px;
     height: 40px;
 }
+
+.content1 table td th,
+table td,
+table {
+    border: 1px solid black;
+}
+
+a {
+    list-style-type: none;
+    color: rgb(66, 126, 150);
+    margin-left: 10px;
+    text-decoration: none;
+    padding-right: 5px !important;
+}
